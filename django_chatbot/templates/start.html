@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+<img src="{% static 'chatbot/image1.png' %}" class="img-fluid" alt="ChatBot">
+
+<div style="position: absolute; top: 20px; right: 20px; padding: 20px; color: #181818; font-size: 20px; font-family: 'Trebuchet MS', sans-serif; text-align: right;">
+    <p>👋 Добро пожаловать! 🚀</p>
+    <p>Начните увлекательное путешествие в мир искусственного интеллекта с нашим чат-ботом. Для начала диалога, пожалуйста, нажмите на кнопку ниже.</p>
+</div>
+
+<a href="{% url 'chatbot' %}">
+    <button class="btn btn-dark" type="button" style="position: absolute; top: 180px; right: 100px; font-family: 'Trebuchet MS', sans-serif; font-size: 18px;">Начать беседу 🤖</button>
+</a>
+
+{% endblock %}
