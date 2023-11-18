@@ -22,8 +22,8 @@ Ensure you have the following installed:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   mkdir WebLLM && cd WebLLM
+   git clone git@github.com:DmPanf/Simple_FastAPI_Django_LLM.git .
    ```
 
 2. **Set up a Virtual Environment** (Optional but recommended)
@@ -49,7 +49,7 @@ Ensure you have the following installed:
 2. **Launch the FastAPI Server**
    ```bash
    cd fastapi_server
-   uvicorn main:app --reload
+   uvicorn main:app --host 0.0.0.0 --port 5000
    ```
 
 ### Usage 🖥️
@@ -61,7 +61,7 @@ Ensure you have the following installed:
 
 ### Contributing 🤝
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](link-to-your-issues-page). For major changes, please open an issue first to discuss what you would like to change.
+For major changes, please open an issue first to discuss what you would like to change.
 
 ### License 📜
 
@@ -69,5 +69,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### Contact 📬
 
-- Your Name - [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
-- Project Link: [https://github.com/your-username/your-repo-name](ithub.com:DmPanf/Simple_FastAPI_Django_LLM.git)
+- Dmitrii - [📨 e-Mail](bunta.bit@mail3.me)
+- Project Link: [https://github.com/DmPanf/Simple_FastAPI_Django_LLM](https://github.com/DmPanf/Simple_FastAPI_Django_LLM.git)
