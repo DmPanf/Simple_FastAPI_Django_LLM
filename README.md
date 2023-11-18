@@ -13,6 +13,8 @@ Welcome to the LLM Dialogue Web App, an innovative platform combining the robust
 
 ![image](https://github.com/DmPanf/Simple_FastAPI_Django_LLM/assets/99917230/cacd6842-93eb-4a5f-b80e-91df0e3da3ae)
 
+---
+
 #### Prerequisites
 
 Ensure you have the following installed:
